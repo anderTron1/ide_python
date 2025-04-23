@@ -171,4 +171,4 @@ def run_code(n_clicks, lista_grafico, code):
     return '', fig
 
 if __name__ == '__main__':
-    app.run_server(debug=False, host=get_ipv4_address(), port=8051)
+    app.run_server(debug=True)
