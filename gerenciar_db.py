@@ -50,4 +50,6 @@ def banco_de_dados(script):
     else:
         print("Não encontrou o nome do banco de dados entre ##   .db##")
     
+    conn.close()
+    
     
